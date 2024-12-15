@@ -6,13 +6,21 @@ This project is an exploration of opioid control policies through the blend of m
 
 
 # Project Schema
+![image](https://github.com/user-attachments/assets/8addeea4-652c-449d-9c97-da02e24d4ef7)
 
 # Machine Learning for Missing Data
 At the heart of this analysis lies the Random Forest Imputation pipeline, a cornerstone of machine learning applied to real-world data challenges. Missing overdose mortality data exhibited an exponential relationship with county population size, enabling the Random Forest algorithm to capture and model this trend with high fidelity. The model’s robustness against outliers and its capacity to identify complex patterns ensured accurate predictions even in noisy datasets.
+![image](https://github.com/user-attachments/assets/50c78f14-7396-414c-80d9-71d56992db08)
 
 Model training and evaluation metrics validated the predictive performance across counties, while data visualization confirmed that the predicted values adhered to the expected exponential pattern. This approach not only mitigated missing data biases but also enhanced the reliability of the broader causal analysis. 
 
 # Pre-Post Charts 
+![image](https://github.com/user-attachments/assets/bc4cde83-8ccf-4586-93c0-d5465f56dcd5)
+![image](https://github.com/user-attachments/assets/3493ae0d-fdaa-4525-b3b0-4f8a09c44e46)
+![image](https://github.com/user-attachments/assets/8b884b13-5fe2-4ba8-99a3-8ff1bc7c8f12)
+![image](https://github.com/user-attachments/assets/d8b8edee-af0f-4990-840d-bcbade2400aa)
+
+
 
 
 # Pre-Post Results
