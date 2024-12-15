@@ -7,4 +7,4 @@
 
 # Exclude main.py and main_chart.ipynb
 !main.py
-!main_chart.ipynb
+!main_chart.ipynb.env
