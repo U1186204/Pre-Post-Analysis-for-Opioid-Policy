@@ -1,6 +1,9 @@
 # Ignore all Python and Jupyter Notebook files
 *.py
 *.ipynb
+*.paruqet
+*.csv
+
 
 # Exclude main.py and main_chart.ipynb
 !main.py
