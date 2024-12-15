@@ -86,7 +86,7 @@ print(len(fips_df))
 # Cell
 
 # IMporting Educaiton, Poverty, Unemployment
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("TOKEN")
 url = "https://raw.githubusercontent.com/MIDS-at-Duke/opioids-2024-data-queens-king/main/data/USDA_education_poverty_unemployment_income.parquet"
 headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
 response = requests.get(url, headers=headers)
@@ -197,7 +197,7 @@ fpp["County"] = fpp["County"].str.upper().str.replace(" COUNTY", "", regex=False
 fpp.head(20)
 
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("TOKEN")
 url_4 = "https://raw.githubusercontent.com/MIDS-at-Duke/opioids-2024-data-queens-king/main/USDA_medIncome2021.parquet"
 headers = {"Authorization": f"Bearer {GITHUB_TOKEN}"}
 response = requests.get(url_4, headers=headers)
