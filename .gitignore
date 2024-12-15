@@ -3,7 +3,7 @@
 *.ipynb
 *.paruqet
 *.csv
-
+.env
 
 # Exclude main.py and main_chart.ipynb
 !main.py
